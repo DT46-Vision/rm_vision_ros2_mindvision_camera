@@ -63,6 +63,9 @@ public:
     // 设置手动曝光
     CameraSetAeState(h_camera_, false);
 
+    // 设置帧率
+    // CameraSetFrameSpeed(h_camera_, 5);
+
     // Declare camera parameters
     declareParameters();
 
